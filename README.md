@@ -38,15 +38,14 @@ This project demonstrates the deployment of a web application using Docker and T
     ```sh
     terraform init
     terraform plan -var "s3_bucket_name=<your-s3-bucket-name>" -var "route53_zone_id=<your-route53-zone-id>" -var "domain_name=<your-domain-name>"
-
-Refer 
-- [FE Source Code](src/readme.md)
-- [Terraform Scripts](terraform/readme.md)    for detailed documentation.
-
-
     terraform apply -var "s3_bucket_name=<your-s3-bucket-name>" -var "route53_zone_id=<your-route53-zone-id>" -var "domain_name=<your-domain-name>"
     ```
 
 5. **Access the Application:**
     - Use the CloudFront distribution domain name or the configured domain name to access the web application.
     - Test the file upload functionality to ensure files are uploaded to the S3 bucket.
+
+Refer 
+- [FE Source Code](src/readme.md)
+- [Terraform Scripts](terraform/readme.md)    
+for detailed documentation.
