@@ -45,7 +45,7 @@ This project demonstrates the deployment of a web application using Docker and T
     - Use the CloudFront distribution domain name or the configured domain name to access the web application.
     - Test the file upload functionality to ensure files are uploaded to the S3 bucket.
 
-Refer 
+## Refer 
 - [FE Source Code](src/readme.md)
 - [Terraform Scripts](terraform/readme.md)    
 for detailed documentation.
