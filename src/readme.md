@@ -104,7 +104,7 @@ In the root directory, create a `package.json` file with the following content:
 ```
 
 #### Testing Locally
-1. Install dependencies:
+1. Install dependencies and create S3 bucket in AWS:
     ```sh
     npm install
     ```
